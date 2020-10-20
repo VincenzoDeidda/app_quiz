@@ -1,0 +1,35 @@
+.container-refresh{
+    display: flex;
+    justify-content: center;
+}
+// .risposta{
+//     display: flex;
+//     justify-content: space-around;
+//     align-items: center;
+    
+// }
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.domanda{
+    text-align: center;
+    font-size: 2em;
+}
+#risposta{
+    margin: 4px 8px 4px 8px;
+}
+
+h3{ 
+    text-align: center;
+}
+
+.btn-success{
+    padding-bottom: 4px;
+}
+
+.btn-danger{
+    padding-bottom: 4px;
+}
+

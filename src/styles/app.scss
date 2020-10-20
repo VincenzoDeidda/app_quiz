@@ -1,0 +1,32 @@
+@import './components/istruzioni.scss';
+@import'./components/gioco.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif !important;     
+    font-size: 48px;
+    border: solid 2px cornflowerblue;
+    margin:10px 10px 10px 10px !important; 
+    padding: 10px;
+}
+    h1{
+    text-align: center;
+    }
+
+    .container-link{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    }
+    .container-ruote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .c-gioco{
+    margin: auto;
+    }
+    #link-2,#link-1{
+        margin: 4px 8px 4px 8px;
+        }

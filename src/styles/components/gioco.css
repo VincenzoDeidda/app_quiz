@@ -1,0 +1,39 @@
+.container-refresh {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.domanda {
+  text-align: center;
+  font-size: 2em;
+}
+
+#risposta {
+  margin: 4px 8px 4px 8px;
+}
+
+h3 {
+  text-align: center;
+}
+
+.btn-success {
+  padding-bottom: 4px;
+}
+
+.btn-danger {
+  padding-bottom: 4px;
+}
+/*# sourceMappingURL=gioco.css.map */
