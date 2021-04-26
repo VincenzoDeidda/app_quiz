@@ -1,10 +1,9 @@
 import React, { Fragment } from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import "../styles/app.css";
-import Gioco from "./quiz/Gioco";
-import Istruzioni from "./quiz/Istruzioni";
-import Time from "./quiz/Time";
+import "../src/styles/app.css";
+import Gioco from "../src/components/quiz/Gioco";
+import Istruzioni from "../src/components/quiz/Istruzioni";
 
 export default function App() {
   return (
@@ -39,8 +38,7 @@ export default function App() {
           </div>
           <div>
             <Route className="c-gioco" path="/quiz/Gioco">
-              <Time></Time>
-              {/* <Gioco /> */}
+              <Gioco />
             </Route>
           </div>
         </div>
