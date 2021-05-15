@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 
-const ExtraTime = (props) => {
-  const [extTime,setExtTime]=useState(true)
-  const [timeLeft, setTimeLeft] = useState(20);
-
+const ExtraTime = ({extTime, setExtTime, timeLeft, setTimeLeft }) => {
+  
 
   const clickHandler = () => {
     setExtTime(false);

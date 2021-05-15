@@ -1,9 +1,11 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import "../src/styles/app.css";
 import Gioco from "../src/components/quiz/Gioco";
 import Istruzioni from "../src/components/quiz/Istruzioni";
+import firebase from "firebase/app";
+  
 
 export default function App() {
   return (

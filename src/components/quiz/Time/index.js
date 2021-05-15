@@ -12,8 +12,8 @@ import React , {useEffect} from 'react';
       const intervalId = setInterval(() => {
         setTimeLeft(timeLeft - 1);
       }, 1000);
-      return () => clearInterval(intervalId);
-    }, [timeLeft]);
+        return () => clearInterval(intervalId);
+      }, [timeLeft]);
     
     return  <div> {timeLeft} </div>;
   }
