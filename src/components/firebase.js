@@ -1,13 +1,15 @@
 import firebase from 'firebase';
 
 const firebaseApp=firebase.initializeApp({
-    apiKey: "AIzaSyAwN9XdDhj0jNbTcwQj5hVOLlfACyItqzE",
-    authDomain: "app-quiz-335ff.firebaseapp.com",
-    projectId: "app-quiz-335ff",
-    storageBucket: "app-quiz-335ff.appspot.com",
-    messagingSenderId: "211445560287",
-    appId: "1:211445560287:web:37b3ea765ca48c3e544a6a"
-  });
+  apiKey: "AIzaSyAgMu2MQUAPHjuaS9zM8LG26e4e97PxKRo",
+  authDomain: "appquiz23-27601.firebaseapp.com",
+  databaseURL: "https://appquiz23-27601-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "appquiz23-27601",
+  storageBucket: "appquiz23-27601.appspot.com",
+  messagingSenderId: "355198967017",
+  appId: "1:355198967017:web:eede1a41103c7e59746478",
+  measurementId: "G-5JEYYH1DR5"
+});
 
   const db=firebaseApp.firestore();
 

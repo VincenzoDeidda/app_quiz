@@ -16,15 +16,13 @@ const Question = ({ currentQuestion, setCurrentQuestion }) => {
         console.log("nodata");
       }
     });
-    let itemToRender;
+  let itemToRender;
   if (currentQuestion.answers) {
-    {
-      itemToRender = currentQuestion.answers.map((answers) => {
-        return<button>{answers.answer}</button>;
-      });
-    }
+    itemToRender = currentQuestion.answers.map((answers) => {
+      return <button>{answers.answer}</button>;
+    });
   }
-  return <div>{itemToRender}</div>
+  return <div>{itemToRender}</div>;
 };
 
 export default Question;

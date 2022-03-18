@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 import ExtraTime from './ExtraTime/ExtraTime';
 import Time from "./Time";
 import Question from "./Questions/Question";
+import Score from "./Score/Score"
 
 
 
@@ -88,8 +89,13 @@ export default function Gioco(props) {
             ) : (
               <h1 className="btn-danger">Hai perso!!! Mi dispiace!</h1>
             )}
-            <h3>Il tuo punteggio è {punteggio} di 10</h3>
-            <div className="container-refresh">
+            <h3>
+              <Score
+                punteggio= {punteggio}
+                setPunteggio= {setPunteggio} 
+              />
+            </h3>
+            <div className="container-refresh">    
               <button className="btn btn-danger btn-lg active"onClick={refreshPage}>
                 Gioca di nuovo
               </button> 
@@ -128,7 +134,8 @@ export default function Gioco(props) {
                 <Question
                 currentQuestion={currentQuestion}
                 setCurrentQuestion={setCurrentQuestion}
-                ></Question>
+                >
+                </Question>
                 </div>
               </div>
               <div className="row">
